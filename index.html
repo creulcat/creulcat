@@ -1,58 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>creulcat.nl coming soon</title>
-	<meta name="description" content="creulcat.nl is coming soon!">
-	<meta name="author" content="Bart Kampert - Kampert.IT - https://kampert.it/">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="utf-8">
+		<title>Creulcat.nl</title>
+		<meta name="description" content="Creulcat.nl is temporary offline. We'll be back soon.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<style>
-		html, body{
-			padding:0px;
-			margin:0px;
-			width:100%;
-			height:100%;
-			font-family:"Trebuchet MS", Helvetica, sans-serif;
-			text-align:center;
-		}
-		
-		html{
-			background-color:#269;
-			background-image: linear-gradient(white 2px, transparent 2px),
-			linear-gradient(90deg, white 2px, transparent 2px),
-			linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-			linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
-			background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
-			background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
-		}
-		body{
-			background-color:rgba(0,0,0,0.375);
-		}
-		
-		#logo{
-			margin:0px auto;
-			padding:0px;
-			width:5%;
-			height:5%;
-			background-image:url("logo.png");
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-position: center; 
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-			padding-bottom:15%;
-		}
-		
-		h1{
-			top:0;
-			position:relative;
-		}
-	</style>
-  </head>
-  <body>
-	<div id="logo"></div>
-    <div><h1>creulcat.nl is coming soon!</h1></div>
-  </body>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+				font-family:"Trebuchet MS", Helvetica, sans-serif;
+			}
+			
+			html, body{
+				width:100vw;
+				height:100vh;
+			}
+			
+			body{
+				background-image: url("background.jpg");
+				height: 100vh;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			
+			h1{
+				text-transform: uppercase;
+			}
+			.wrapper{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width:max-content;
+				margin: 0 auto;
+				padding:0 10px;
+				height:100vh;
+				background:rgba(0,0,0,0.8)
+			}
+			.message{
+				text-align:center;
+				color:#fffff9;
+				text-shadow: 2px 2px #666666;
+			}
+		</style>
+
+		<meta name="theme-color" content="#666666">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="message">
+				<h1>Creulcat.nl is temporary  offline</h1>
+				<h2>Don't worry, we'll be back soon!</h2>
+			</div>
+		</div>
+	</body>
 </html>
